@@ -9,7 +9,7 @@
         "email": "private",
         "url": "https://github.com/Mift777"
     },
-    "url": "https://SEU-DOMINIO-AQUI/launcher",
+    "url": "pokebeast.infinityfreeapp.com/htdocs",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
