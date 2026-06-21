@@ -27,30 +27,17 @@ Configuracao atual:
 
 - Minecraft: `1.21.1`
 - Fabric Loader: `0.16.10`
-- Backend web: `web-pokebeast`
 - Instancia: `Pokebeast`
 
 ## Configuracao
 
-Antes de compilar/publicar o launcher, ajuste:
+Os detalhes de hospedagem, endereco do servidor e arquivos do modpack sao mantidos fora deste repositorio publico.
 
-- `package.json`
-  - troque `https://SEU-DOMINIO-AQUI/launcher` pela URL publica do backend;
-
-- `web-pokebeast/instances/php/instances.php`
-  - troque `SEU-IP-AQUI` pelo IP ou dominio publico do servidor Minecraft.
-
-Mais detalhes em `POKEBEAST_SETUP.md`.
+Antes de compilar/publicar o launcher, configure a URL publica do backend privado em `package.json`.
 
 ## Mods
 
-Os arquivos `.jar` do modpack nao sao enviados para o GitHub porque alguns passam do limite de tamanho da plataforma.
-
-Eles devem ser colocados no host PHP em:
-
-`web-pokebeast/instances/instances/Pokebeast/mods`
-
-O mod `shinycharm-1.0.0.jar` e tratado como arquivo local do modpack e deve ser hospedado junto com os outros mods.
+Os arquivos `.jar` do modpack nao sao enviados para o GitHub. Eles devem ser hospedados separadamente no backend privado do servidor.
 
 ## Desenvolvimento
 

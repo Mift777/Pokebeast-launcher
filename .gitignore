@@ -6,4 +6,5 @@ dist
 node-v*
 data
 .DS_Store
-web-pokebeast/instances/instances/Pokebeast/mods/*.jar
+web-pokebeast/
+POKEBEAST_SETUP.local.md
